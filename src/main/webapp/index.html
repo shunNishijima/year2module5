@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="WebDevelopment/design.css">
+    <title>Log In</title>
+    <script src="./WebDevelopment/Functions/login.js"></script>
+</head>
+<body class="indexBody">
+<div class="formContainer">
+    <div class="imgcontainer">
+        <img src="WebDevelopment/LOGOSAFEty.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label ><b>Username</b></label>
+        <input id="username" type="text" placeholder="Enter Username" name="uname" required>
+
+        <label ><b>Password</b></label>
+        <input id="password" type="password" placeholder="Enter Password" name="psw" required >
+        <h4 id="mistakeMessage"></h4>
+
+        <button type="submit" onclick="login()">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <span class="signUp">Not a user yet? <a href="WebDevelopment/signUp.html"> Signup</a></span>
+    </div>
+</div>
+</body>
+</html>

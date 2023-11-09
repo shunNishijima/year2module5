@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <title>Sign Up</title>
+    <script src="Functions/signup.js"></script>
+</head>
+<body class="indexBody">
+<div class="formContainer">
+    <div class="imgcontainer">
+        <img src="LOGOSAFEty.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label ><b>Username</b></label>
+        <input id="username" type="text" placeholder="Enter Username" name="uname">
+
+        <label> <b>Safe Serial Number</b></label>
+        <input id="serial" type="text" placeholder="Enter Serial number of the safe" name="serialNumber">
+
+        <label ><b>Password</b></label>
+        <input id="password" type="password" placeholder="Enter Password" name="psw">
+
+        <label> <b>Repeat Password</b></label>
+        <input id="password2" type="password" placeholder="Repeat Password" name ="psw2">
+
+        <h4 id="mistakeMessage"></h4>
+
+        <button type="submit" onclick=signup()>Sign Up</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <span class="signUp">Already have an account? <a href="../index.html"> Log in</a></span>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.indexBody {
+    background-color: #4c4c4c;
+}
+
+#map {
+    left: 25%;
+    top: 10%;
+    height: 70%;
+    width: 50%;
+    border: solid #333 10px;
+}
+#brute {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px;
+    position: relative;
+    bottom:12%;
+}
+
+#bcount {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#bdelete {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#bdelete:hover {
+    background-color: #45a049;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 8%;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    height: 100%;
+    position: relative;
+    bottom: 7%;
+}
+
+.user-image {
+    height: 55%;
+    width: auto;
+    position: relative;
+    top: 8%;
+}
+
+.title {
+    float:left;
+    position: relative;
+    padding-left: 15px;
+    height:75%;
+    top: 12.5%;
+}
+
+/* Bordered form */
+.formContainer {
+    border: 3px solid white;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 25%;
+}
+
+/* Full-width inputs */
+input[type=text],[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button[type=submit] {
+    background-color: #4c4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.logOut {
+    float: right;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 6px;
+    width: 7%;
+    font-size: 15px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    height: 10%;
+    width: 10%;
+    /*border-radius: 50%;*/
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    font-size: 18px;
+}
+
+span.signUp {
+    font-size: 18px;
+}
+
+.formContainer {
+    background-color: white;
+}
+
+h4 {
+    color: red;
+}
+
+.refresher {
+    background-color: #4c4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    position: relative;
+    bottom: 12%;
+}
+
+.refresher:hover {
+    opacity: 0.8;
+}
